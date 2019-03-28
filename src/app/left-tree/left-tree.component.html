@@ -1,0 +1,25 @@
+<div class="left_top">
+  <div>
+    <nz-dropdown>
+        <a nz-dropdown class="Newly_build">
+          新建<i nz-icon type="down"></i>
+        </a>
+        <ul nz-menu nzSelectable>
+          <li nz-menu-item>
+            <a>同级</a>
+          </li>
+          <li nz-menu-item>
+            <a>子级</a>
+          </li>
+        </ul>
+      </nz-dropdown>
+      <span class="Related_courses">升级</span>
+      <span class="Related_courses">降级</span>
+  </div>
+  <nz-tree
+  [(nzData)]="nodes"
+  nzDraggable="true"
+  (nzClick)="click($event)"
+  (nzOnDragEnd)="nzEvent($event)">
+</nz-tree>
+</div>

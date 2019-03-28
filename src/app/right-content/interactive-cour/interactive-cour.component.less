@@ -1,0 +1,190 @@
+.css-yulan{
+    border:1px solid #f00;
+    .block{
+        padding:20px 9%;
+        margin:0 20px;
+        cursor:grab;
+        span{
+            position: relative;
+            min-height: 50px;
+            background: #F9F9F9;
+            border-radius: 8px;
+            padding: 12px 20px;
+            font-size: 18px;
+            color: #333333;
+            display: flex;
+            flex-direction:column;
+            min-width: 100px;
+            cursor: text;
+        }
+        .option{
+            justify-content:space-between;
+            display: inline-flex;
+            width:100%;
+            align-items:center;
+            margin-top:10px;
+            margin-left: 0;
+            background: #fff;
+            border: 1px solid #fff; 
+            span{
+                display: inline-flex;
+                width:calc(100% - 100px);
+            }
+            .selected{
+                background: #45B893;
+                color:#fff;
+            }
+            i{
+                display: inline-flex;
+                width:25px;
+                height:25px;
+                border: 1px solid #45B893;
+                justify-content:center;
+                color: #45B893;
+                line-height: 23px;
+            }
+        }
+        .block-title{
+            font-size: 24px;
+            color: #444444;
+            display: block;
+            background: #fff;
+            padding-left: 8px;
+        }
+        
+    }
+    .block-cover{
+        height: 440px;
+        margin: 20px;
+        cursor:grab;
+        img{
+            cursor: crosshair;
+        }
+        span{
+            cursor: text;
+            text-align: center;
+            display: block;
+        }
+        .block-cover-title{
+            line-height: 49px;
+            padding: 29px 0 0 50px;
+            display: flex;
+            align-items:center;
+        }
+        .block-cover-title img{
+            width: 49px;
+            height: 49px;
+            border-radius: 50%;
+        }
+        .block-cover-title span{
+            font-size: 24px;
+            color: #FFFFFF;
+            line-height: 49px;
+            margin-left: 20px;
+            position: relative;
+        }
+        .block-cover-img{
+            width: 188px;
+            height: 188px;
+            background:rgba(255,255,255,0.2) ;
+            display: flex;
+            justify-content:center;
+            align-items:center;
+            margin: 44px auto 0;
+            border-radius: 50%;
+        }
+        .block-cover-img img{
+            border-radius: 50%;
+            width: 157px;
+            height: 157px;
+        }
+        .block-cover>span{
+            font-size: 40px;
+            color: #FFFFFF;
+            text-align: center;
+            display: block;
+            margin-top: 35px;
+            position: relative;
+        }
+    }
+    .block-radio{
+        .option{
+            i{
+                border-radius: 50%;
+            }
+        } 
+    }
+    input[type='radio'],input[type='checkbox']{
+        display: none;
+    }
+}
+.block-images{
+    .col-xs-3{
+        i{
+            display: inline-flex;
+            width:25px;
+            height:25px;
+            border: 1px solid #45B893;
+            justify-content:center;
+            color: #45B893;
+            line-height: 23px;
+        }
+    } 
+    img{
+        width: 100%;
+    }
+    .col-xs-2{
+        text-align: center;
+    }
+    .col-xs-3{
+        text-align: center;
+        img{
+            border: 1px dashed #CBCBCB;
+            margin-bottom: 10px;
+            height: 130px;
+        }
+    }
+    p>i{
+        margin-top:10px;
+    }
+    .row{
+        background: #F9F9F9;
+        border-radius: 4px;
+        padding: 34px 20px 20px;
+        font-size: 18px;
+        color: #333333;
+    }
+}
+.block-upload{
+    p{
+        background: #F9F9F9;
+        padding: 20px;
+        b{
+            width: 154px;
+            height: 58px;
+            line-height: 58px;
+            background: #FFFFFF;
+            border: 1px solid #EDEDED;
+            border-radius: 8px;
+            font-size: 16px;
+            color: #444444;
+            display: block;
+            padding-left: 20px;
+            font-weight: 400;
+        }
+    }
+}
+.css-Revision{
+    border-top: 1px solid #CBCBCB;
+    thead{
+        tr{
+            th{
+                background: #F2F2F2;
+                font-size: 12px;
+                color: #444444;
+                font-weight: 400; 
+                border: 1px solid #CBCBCB;
+            }
+        }
+    }
+}

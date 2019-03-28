@@ -1,0 +1,17 @@
+
+<div class="right_top">
+  <p class="right_top_title">课程标题</p>
+  <div class="Source_material">
+    <input type="button" value="上传素材" (click)="clck()" />
+  </div>
+</div>
+<div class="operation por" style="display:none;">
+  <div class="Middle clearfix">
+    <p>图文</p>
+    <p>目录</p>
+    <p>交互式课件</p>
+    <p>目录</p>
+  </div>
+</div>
+<app-interactive-cour></app-interactive-cour>
+<ckeditor name="ckeditor" id="ckeditor"  [(ngModel)]="ckeditorContent"  debounce="500" [config]="config" style="display:none;"> </ckeditor>

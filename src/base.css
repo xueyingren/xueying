@@ -1,0 +1,88 @@
+/*/  * CSS Document *!*/
+
+@charset "utf-8";
+/* CSS Document */
+/*font-size:12px;*/
+object{
+  position: absolute;
+  top:0;
+  z-index: -1;
+
+}
+*{font-family: 'Microsoft YaHei';}
+body{  margin:0;}
+h1,h2,h3,h4,h5,h6{ margin:0; font-weight:normal; font-size:12px;}
+a{ color:#000; text-decoration:none;}
+ol,ul,li,dt,dd,dl{ list-style:none; padding:0; margin:0;}
+p{ margin:0;}
+i,em{ font-style:normal;}
+b,strong{ font-weight:normal;}
+a img{ border:none;}
+.clearfix:after{ display:block; content:""; clear:both;}
+.clearfix{ zoom:1;}
+.fr{ float:right;}
+.fl{ float:left;}
+table{border-collapse:collapse;}
+.por{ position:relative;}
+.poab{ position:absolute;}
+
+a, input, button, textarea, select { outline: none;}
+a,
+input[type=submit],
+input[type=button],
+button {
+  cursor: pointer;
+}
+
+/*页码fix*/
+.kkpager, #kkpager {
+  margin-top: 20px;
+  text-align: center;
+}
+.pageBtnWrap, .pageBtnWrap span, .pageBtnWrap a {
+  float: none !important;
+}
+.infoTextAndGoPageBtnWrap {
+  display: none;
+}
+
+li {
+  cursor: pointer;
+}
+
+
+::-ms-clear, ::-ms-reveal{display: none;}
+
+
+html,body{
+  font-family: 'Microsoft YaHei';
+}
+
+a:hover {text-decoration:none;color: #fff;}
+
+.feeds-item-0 {
+  float:left;text-align:center;line-height:100px;margin:40px;height:100px;width:100px;
+  border: #ffd317 1px solid;
+  border-radius: 1px;
+  cursor: pointer;
+}
+
+.feeds-item img{
+    width: 100%;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.feeds-item img:hover {
+    transform: scale(3);
+    -moz-transform: scale(3);
+    -webkit-transform: scale(3);
+    -o-transform: scale(3);
+    -ms-transform: scale(3);
+    border-radius: 10px;
+    border: #ffd317 1px dotted;
+    cursor: pointer;
+}
