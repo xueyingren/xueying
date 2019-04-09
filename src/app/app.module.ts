@@ -23,6 +23,11 @@ import { InteractiveCourComponent } from './right-content/interactive-cour/inter
 import { NavComponent } from './nav/nav.component';
 import { IndexComponent } from './index/index.component';
 import { OneComponent } from './one/one.component';
+import { TowComponent } from './tow/tow.component';
+import { ThreeComponent } from './three/three.component';
+import { FourComponent } from './four/four.component';
+import { SixComponent } from './six/six.component';
+import { FiveComponent } from './five/five.component';
 registerLocaleData(zh);
 
 @NgModule({
@@ -35,6 +40,11 @@ registerLocaleData(zh);
     NavComponent,
     IndexComponent,
     OneComponent,
+    TowComponent,
+    ThreeComponent,
+    FourComponent,
+    SixComponent,
+    FiveComponent,
   ],
   imports: [
     BrowserModule,
